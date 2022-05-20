@@ -10,7 +10,7 @@ function App() {
       <Header />
       <div className="main">
         <Routes>
-          {/* <Route path="/" element={<Home />}></Route> */}
+          <Route path="/" element={<Home />}></Route>
           <Route path="/about">{/* <About /> */}</Route>
           <Route path="/users">{/* <Users /> */}</Route>
         </Routes>
